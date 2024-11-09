@@ -73,7 +73,7 @@
 .volunteer-right{
     float: left;
     width: 50%;
-
+    margin: 0% 0% 0% 5%;
     
 }
 
@@ -81,3 +81,48 @@
     text-transform: uppercase;
 
 }
+
+#align{
+    margin: 0% 0% 0% 5%;
+}
+
+.details{
+    float: left;
+    width: 100%;
+    color: black;
+    background-color: rgb(12, 11, 11);
+}
+
+
+.sub-details{
+    float: left;
+   width: 20%;
+   border: 2px solid aliceblue;
+   color: black;
+   height: 220px;
+   margin: 5% 0% 0% 3%;
+
+}
+.sub-details h1{
+   text-transform: uppercase;
+    text-align: center;
+}
+
+.sub-details p{
+    margin: 0% 0% 0% 6%;
+}
+
+.sub-details input ,select{
+    float: left;
+    width: 90%;
+    padding: 2% 0% 0% 0%;
+    margin: 3% 0% 0% 3%;
+
+}
+.sub-details button{
+    float: left;    
+    width: 50%;
+    margin: 3% 0% 0% 25%;
+
+}
+
