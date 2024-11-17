@@ -4,6 +4,9 @@
 
     <title>Final project</title>
     <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
   
 
 
@@ -11,18 +14,20 @@
 <body>
 
     <div class="banner-div">
-        <img src="../static/images/qis_banner.png">
+      <img src="../static/images/qis_banner.png">
    
    </div>
      
 
    <div class="main-div">
       <div class="main-left">
-         <img src="../static/images/admissions.jpg" alt="noimg">
+         <a href="campus_tour"><img src="../static/images/admissions.jpg" alt="noimg"></a>
+
       </div>
       <div class="main-right">
-        <h1>manage admissions</h1>
+        <a href="addmission"><h1>manage admissions</h1></a>
         <img src="../static/images/college.png" alt="noimg">
+
       </div>
    </div>
 
@@ -77,9 +82,9 @@
          
          <input type="text" placeholder="name" name="name">
 
-         <input type="email" placeholder="Email" name="Email">
-         <input type="number" placeholder="number" name="number">
-        <select name="course">
+         <input type="email" required placeholder="Email" name="Email">
+         <input type="number" required placeholder="number" name="number">
+        <select name="course" required>
          <option value=""disabled  selected>select course</option>
          <option value="computers">computers</option>
          <option value="eletronics">eletronics</option>
@@ -109,6 +114,11 @@
 
    </div>
 
+   <div class="footer">
+      <p>Copyright © 2024 || All Rights Reserved || Developed By SRINIVAS-KANCHUGATLA</p>
+   </div>
+
 
 </body>
 </html>
+
