@@ -16,10 +16,10 @@ def callme_details():
     Email= request.form["Email"]
     number= request.form["number"]    
     course =  request.form["course"]  
-    callme_details.insert_one({
+    #callme_details.insert_one({
     
-        "name":name,"Email":Email,"number":number,"course":course
-    })
+      #  "name":name,"Email":Email,"number":number,"course":course
+    #})
     return redirect("/")
 
 @app.route("/register",methods =["GET"])
