@@ -1,5 +1,5 @@
 from flask import Flask,render_template,request,redirect # type: ignore
-from pymongo import MongoClient 
+#from pymongo import MongoClient 
 app = Flask(__name__)
 
 @app.route("/",methods =["GET"])
